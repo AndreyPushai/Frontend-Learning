@@ -1,0 +1,74 @@
+body {
+    background-color: #2e2e2e; /* Space gray background */
+    color: #fff; /* White text color for contrast */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background for button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add space between quote and button */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.quote-section {
+    margin-top: 20px;
+}
+
+.quote-text, .quote-author {
+    font-size: 24px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;}
+
+/* @keyframes fadeInOut {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+} */
+
+/* Beautiful quotation marks */
+.quote-text::before {
+    content: "“";
+    font-size: 48px;
+    margin-right: 10px;
+}
+
+.quote-text::after {
+    content: "”";
+    font-size: 48px;
+    margin-left: 10px;
+}
+
+.quote-author::before {
+    content: "—";
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
