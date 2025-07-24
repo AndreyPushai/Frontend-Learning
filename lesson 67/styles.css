@@ -1,0 +1,83 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0 auto;
+    width: 750px;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: cadetblue;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+main {
+    font-weight: 400;
+    padding: 25px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: rgb(255, 235, 205);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: lightslategray;
+}
+
+li {
+    margin: 10px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.important {
+    /* list-style-type: square; */
+    color: rgb(252, 211, 150);
+    border-color: rgb(253, 205, 132);
+}
+
+main a {
+    color: rgb(36, 3, 102);
+    background-color: yellowgreen;
+    display: inline-block;
+    padding: 3px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main a:hover,
+main a:active {
+    background-color: rgb(112, 147, 43);
+    color: rgb(36, 3, 102);
+    text-decoration: underline;
+}
+
+img {
+    display: inline-block;
+    margin-top: 32.16px;
+    margin-left: 25px;
+    width: 150px;
+    height: 100px;
+}
+
+.bold {
+    font-weight: bold;
+}
