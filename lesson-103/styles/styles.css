@@ -1,0 +1,47 @@
+#main-goal {
+    height: 800px;
+    background-image: url("../images/places/main-goal.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#goal-content {
+    width: 700px;
+    background-color: rgba(51, 47, 47, 0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(68, 67, 67);
+    padding: 35px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#goal-content h1{
+    color: rgb(220, 243, 238);
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+#goal-content p {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(220, 243, 238);
+}
+
+#goal-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(55, 139, 192);
+    color: black ;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#goal-content a:hover {
+    background-color: rgb(45, 119, 172);
+}
