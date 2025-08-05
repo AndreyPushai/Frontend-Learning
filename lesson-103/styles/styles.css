@@ -17,7 +17,7 @@
     top: 200px;
 }
 
-#goal-content h1{
+#goal-content h1 {
     color: rgb(220, 243, 238);
     font-size: 50px;
     font-family: "Raleway", sans-serif;
@@ -44,4 +44,41 @@
 
 #goal-content a:hover {
     background-color: rgba(45, 119, 172, 0.8);
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(253, 219, 194), rgb(0, 0, 0));
+}
+
+#highlights h2 {
+    text-align: center;
+    color: rgb(220, 243, 238);
+    font-size: 40px;
+    margin: 24px 0;
+}
+
+#highlights-list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto 40px auto;
+}
+
+.destination {
+    margin: 0 20px;
+}
+
+.destination img {
+    height: 300px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destination p {
+    text-align: center;
+    color: rgb(55, 139, 192);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
