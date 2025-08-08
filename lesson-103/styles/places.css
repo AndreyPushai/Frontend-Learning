@@ -41,10 +41,12 @@ main li img {
     padding: 15px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .actions {
-    text-align: right;
+    align-self: flex-end;
+    padding-bottom: 10px;
 }
 
 .actions a {
